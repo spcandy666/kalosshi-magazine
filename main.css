@@ -53,9 +53,9 @@ display: inline;
    header {height: 120px;}
 
   nav{width: 60%; 
-    height: 56px;
-    margin-left: 80px;}
-
+    height: 70px;
+    margin-left: 80px; 
+    display: inline;}
   
      ul{
 /*top bottom left right mushaobs yvela am propertize tu arcerti 
