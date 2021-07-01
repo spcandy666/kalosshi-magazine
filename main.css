@@ -10,9 +10,35 @@
    h1 {color: whitesmoke;}
    h3 { color: cornflowerblue; }
 
+.link_color{
+
+  color: black;
+
+  }
+
+  /*hover = when spite clicks*/
+ .link_color:hover {color: whitesmoke;
+  font-size:20px;}
+ .link:hover {color: black;}
+
+ /*article a:hover {color: black;}*/
+
+  .link, .link_color{text-decoration: none;}
+/*ar aris sachiro clasebis gamoyeneba, mxolod a tegitac sheidzleba     
+cota chaxlartulia*/
+    /*qvevit xazi agar eqneba*/
+
+  
 .color_blu {color: blueviolet;}
-.logo {height: 100px;}
-.photo {height: 500px;}
+ .logo {height: 100px;
+
+display: inline;
+
+}
+
+
+
+.photo {height: 200px;}
 
 #small {font-size: 15px;}
 
@@ -23,18 +49,59 @@
 
   .darkred {color: darkred;}
    
+
+   header {height: 120px;}
+
+  nav{width: 60%; 
+    height: 56px;
+    margin-left: 80px;}
+
   
-     
+     ul{
+/*top bottom left right mushaobs yvela am propertize tu arcerti 
+arweria otxive ertnairia, tu ori weria zeda da qveda -
+ marcxena da marjvena ertnairia.  4ives tanmimdevrulad dawerisas saatis
+ isrit midis wakitxva anu jer right top mere left top mere levft bottom meremeotxe
+*/
 
-    
+/*elementis moculobam daikavosmshobeli tegis siganis procenti*/
+      width: 50%;
+/*elementis garet dashoreba.     mushaobs mxolod displei elementebze*/
+      margin: 50px;
+/*elements SigniT daSoreba mtavar elementsa da sazgvars shoris*/
+      padding: 20px;
+/*/*charcho*/ 
 
-    
-          }
+
+/*border-width: 2px;*/
+/*border-style: solid;*/
+/*border-color: black;*/
+
+
+display: inline;
+/*
+    border: 2px solid black;
+border-radius:30px ;
+*/
+
+margin-bottom: 29px;
+
+
+/*displei - ar aqvs a-s spans potos links da a.sh uprosworad aqvs in line */
+
+
+    }
+
+li {display: inline;
+margin-right: 10px;
 
 
 
+}
 
+article{width: 400px;
+  display: inline-block;}
 
-
+  h1 {cursor: pointer;}
 
 
